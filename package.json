@@ -1,7 +1,6 @@
 {
   "name": "ilovereact",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,14 @@
   "devDependencies": {
     "autoprefixer": "^6.0.2",
     "postcss-cli": "^2.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhougonglai/lovereact.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhougonglai/lovereact/issues"
+  },
+  "homepage": "https://github.com/zhougonglai/lovereact#readme",
+  "description": ""
 }

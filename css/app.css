@@ -41,10 +41,6 @@ a:hover{
     color: #dadada;
     text-decoration: none;
 }
-.section{
-    background-color: rgba(255,0,0,.3);
-    border:2px solid #fff;
-}
 .flex-row{
     flex-direction: row;
     align-items: center;
@@ -54,10 +50,8 @@ a:hover{
     padding: 0 2%;
 }
 .ihone-demo{
-    background-color: rgba(255,0,0,.3);
 }
 .feature-description{
-    background-color: rgba(0,255,0,.3);
 }
 /* 容器平铺 */
 /* flex:0 1 auto;
@@ -78,4 +72,20 @@ a:hover{
 }
 .full-height{
     height:100%;
+}
+.full-height:nth-of-type(1){
+    background-image: url("http://gugugupan.github.io/sike-react-ilovereact/img/background.jpg");
+    background-origin:border-box;
+}
+.full-height:nth-of-type(2){
+    background-image: url("http://gugugupan.github.io/sike-react-ilovereact/img/tumblr-demo.jpg");
+    background-origin:border-box;
+}
+.full-height:nth-of-type(3){
+    background-image: url("http://gugugupan.github.io/sike-react-ilovereact/img/swype-demo.jpg");
+    background-origin:border-box;
+}
+.full-height:nth-of-type(3){
+    background-image: url("http://gugugupan.github.io/sike-react-ilovereact/img/android-robot.svg");
+    background-origin:border-box;
 }
