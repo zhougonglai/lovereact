@@ -573,6 +573,7 @@ a:hover{
 }
 .robot{
     bottom: 0;
+    right:0;
     -webkit-transform: rotate(-45deg) translate(-6%,35%);
         -ms-transform: rotate(-45deg) translate(-6%,35%);
             transform: rotate(-45deg) translate(-6%,35%);
