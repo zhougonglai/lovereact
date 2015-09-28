@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a5c53b11-0675-460a-8623-45e1c2933b0c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bundle/app.css" afterPath="$PROJECT_DIR$/bundle/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lovereact.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,8 +27,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.041667">
-              <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
+            <state vertical-scroll-proportion="-5.0416665">
+              <caret line="60" column="6" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -69,8 +70,8 @@
       <file leaf-file-name="app.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bundle/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42857143">
-              <caret line="577" column="14" selection-start-line="577" selection-start-column="14" selection-end-line="577" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.2987013">
+              <caret line="481" column="26" selection-start-line="481" selection-start-column="26" selection-end-line="481" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -735,8 +736,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.041667">
-          <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
+        <state vertical-scroll-proportion="-5.0416665">
+          <caret line="60" column="6" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -754,8 +755,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bundle/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42857143">
-          <caret line="577" column="14" selection-start-line="577" selection-start-column="14" selection-end-line="577" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.2987013">
+          <caret line="481" column="26" selection-start-line="481" selection-start-column="26" selection-end-line="481" selection-end-column="26" />
           <folding />
         </state>
       </provider>

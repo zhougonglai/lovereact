@@ -479,7 +479,6 @@ a:hover{
     text-decoration: none;
 }
 .section{
-    background-color: rgba(255,0,0,.3);
     border:2px solid #fff;
 }
 .flex-row{
@@ -501,7 +500,6 @@ a:hover{
     padding: 0 2%;
 }
 .ihone-demo{
-    background-color: rgba(255,0,0,.3);
 }
 .feature-description{
 }
@@ -574,11 +572,10 @@ a:hover{
             transform: translate(23px,90px);
 }
 .robot{
-    transform: rotate(-45deg) translate(-6%,35%);
     bottom: 0;
-    -webkit-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-            transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg) translate(-6%,35%);
+        -ms-transform: rotate(-45deg) translate(-6%,35%);
+            transform: rotate(-45deg) translate(-6%,35%);
 }
 /*afixer*/
 #slider-control {
