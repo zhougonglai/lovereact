@@ -80,37 +80,44 @@ a:hover{
 }
 :root{
 }
-.overlay{
-    background-image: linear-gradient(rgba(0,0,0,0),rgba(31,30,52,1));
-}
 .full-height:nth-of-type(1){
-background-image: url("../img/background.jpg");
-background-size: cover;
-background-position: center;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.full-height:nth-of-type(4){
+    overflow: hidden;
 }
 .ptr{
-position: relative;
+    position: relative;
 }
 .pta{
-position: absolute;
+    position: absolute;
 }
 .ptf{
-position: fixed;
-right: 0;
-top: 50%;
+    position: fixed;
+    right: 0;
+    top: 50%;
 }
 .pts{
-position: static;
+    position: static;
+}
+.overlay{
+    background-image: -webkit-linear-gradient(rgba(0,0,0,0), rgba(31,30,52,1));
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(31,30,52,1));
 }
 .tumblr{
     z-index: 1;
+    -webkit-transform: translate(23px,90px);
+    -ms-transform: translate(23px,90px);
     transform: translate(23px,90px);
 }
 .robot{
-    bottom: -37%;
-    right: -3%;
-    overflow: hidden;
-    transform: rotate(-45deg);
+    bottom: 0;
+    right:0;
+    -webkit-transform: rotate(-45deg) translate(-6%,35%);
+    -ms-transform: rotate(-45deg) translate(-6%,35%);
+    transform: rotate(-45deg) translate(-6%,35%);
 }
 /*afixer*/
 #slider-control {

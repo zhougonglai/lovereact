@@ -555,8 +555,9 @@ a:hover{
 }
 .ptf{
     position: fixed;
-    right: 0;
+    right:2%;
     top: 50%;
+    z-index:999;
 }
 .pts{
     position: static;
@@ -596,4 +597,12 @@ a:hover{
 
 #slider-control .active .dot {
     background-color: #fff;
+}
+
+.page1{
+    bottom:10%;
+    width: 100%;
+}
+.react-logo{
+   /* top: 20%;*/
 }
