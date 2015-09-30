@@ -83,93 +83,9 @@
 </div>
 <script type="text/javascript" src="node_modules/gsap/src/uncompressed/TweenMax.js"></script>
 <script type="text/javascript" src="node_modules/gsap/src/uncompressed/plugins/ScrollToPlugin.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
 <script>
 
-/* TweenMax.to(object,duration,options) - 自定义属性动画：由 CSS 样式表中的值变化为自定义的值。*/
-/* logo动画   */
-   /* TweenMax.fromTo(
-            ".react-logo",
-            2,
-            {css:{"y":"0%",}},
-            {css:{"y":"10%",},
-            repeat:-1,          // 永久重复动画的选项
-            yoyo:true,          // 反转、重新运行动画的选项
-            ease:Power2.easeInOut
-            });*/
-//     robot
-function animateRobot(){
-        var t = new TimelineMax({yoyo: true, repeat: -1});
-        t.to(".robot",1,{rotation: "-10deg"})
-        .to(".robot",1,{rotation: "-67deg"});
-}
-
-function animateLogo(){
-    TweenMax.fromTo(".react-logo",
-        2,{css:{"y":"0%"}},
-        {css:{"y":"10%"},repeat:-1,yoyo:true,
-        ease:Power2.easeInOut,});
-}
-
-function scrollToElement(element){
-//    var topOfElement = element.offsetTop;//.getBoundingClientRect()
-    element.className = "";
-    var choice = document.body.querySelector(element.getAttribute("href"));
-   /* var elementTop = element.scrollTop;
-    var elementBottom = elementTop + element.scrollHeight;*/
-
-    TweenMax.to(window,1,{
-        scrollTo:{
-          y:choice.offsetTop,
-        },
-        ease:Power2.easeInOut,
-    });
-    /*if(window.scrollY >= elementTop && window.scrollY < elementBottom){
-        element.className = "active";
-    }else{
-        element.className = "";
-    }*/
-}
-function addSmoothScrolling(){
-    var links = document.querySelectorAll("#slider-control a");
-    for(var i = 0;  i<links.length; i++){
-        var link = links[i];
-        link.addEventListener("click",function(event){
-            event.preventDefault();
-            scrollToElement(this);
-            /*var section = document.body.querySelector(_this.getAttribute("href"));
-            var sectionTop = section.scrollTop;
-            var sectionBottom = sectionTop+section.scrollHeight;
-
-            console.log("scrollY"+window.pageYOffset);
-            console.log("scrollTop"+section.scrollTop);
-            console.log("scrollHeight"+section.scrollHeight);
-            if(window.scrollY >= sectionTop && window.scrollY < sectionBottom){
-                _this.className = "active";
-            }else{
-                _this.className = "";
-            };
-            scrollToElement(sectionTop);*/
-
-        });
-
-    }
-}
-
-/*function updateSliderControl(){
-    var links = document.querySelectorAll("#slider-control a");
-    for( var i = 0;i < links.length ; i++){
-        var link = links[i];
-        var section = document.querySelector()
-    }
-}*/
-window.onscroll=function(){
-    addSmoothScrolling();
-}
-window.onload=function(){
-    animateLogo();
-    animateRobot();
-    addSmoothScrolling();
-};
 </script>
 </body>
 </html>
