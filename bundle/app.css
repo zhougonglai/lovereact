@@ -496,8 +496,24 @@ a:hover{
         -ms-flex-pack: center;
             justify-content: center;
 }
+。flex-center{
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.flex-column{
+    flex-direction: column;
+    justify-content: center;
+    align-self: stretch;
+    align-items: center;
+}
 .flex-item{
-    padding: 0 2%;
+    padding: 0 5%;
 }
 .ihone-demo{
 }
@@ -510,7 +526,6 @@ a:hover{
  * flex-shrink:auto;
 */
 .flex-box1{
-    padding:0 5%;
     -webkit-align-self: stretch;
         -ms-flex-item-align: stretch;
             align-self: stretch;
@@ -518,9 +533,9 @@ a:hover{
     -webkit-flex-grow: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
-    -webkit-flex-basis: 0;
-        -ms-flex-preferred-size: 0;
-            flex-basis: 0;
+    -webkit-flex-basis: 50%;
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%;
 }
 .flex-box2{
     -webkit-align-self: stretch;
@@ -530,9 +545,9 @@ a:hover{
     -webkit-flex-grow: 2;
         -ms-flex-positive: 2;
             flex-grow: 2;
-    -webkit-flex-basis: 0;
-        -ms-flex-preferred-size: 0;
-            flex-basis: 0;
+    -webkit-flex-basis: 50%;
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%;
 }
 .full-height{
     height:100%;
@@ -543,8 +558,6 @@ a:hover{
     background-image: url("../img/background.jpg");
     background-size: cover;
     background-position: center;
-}
-.full-height:nth-of-type(4){
     overflow: hidden;
 }
 .ptr{
@@ -606,3 +619,15 @@ a:hover{
 .react-logo{
    /* top: 20%;*/
 }
+
+/* scrollmagic test*/
+div#ihpone-overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /*background-color: rgba(255,0,0,.3);*/
+    transform: translate(0,-14%);
+}
+
+
+
